@@ -1,18 +1,35 @@
 
 body{
+    margin: 0;
     color: aqua;
     font-family: 'Orbitron', sans-serif;
     font-size: 18px;
 }
 
-  .fixo-topo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
+
+#menu .lista-menu{
+    margin: 0;
+    background-color:aquamarine;
+    list-style: none;
+}
+
+#menu .lista-menu li{
+    display: inline;
+}
+
+#menu .lista-menu li a{
+    padding: 10px 10px;
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+#menu .lista-menu li a:hover{
+    color: #333;
+}
+
 .container{
-    background-color:#333;
+    background-color: black;
     color: #eee;
     width: 80%;
     margin: auto;
@@ -22,6 +39,7 @@ body{
 .main-aside h2{
     text-align: center;
 }
+
 .main-aside ul{
     list-style: none;
     text-align: center;
@@ -31,16 +49,23 @@ body{
 }
 
 .lista-elementos img{
-    border-radius: 50%;
+    border-radius:50%;
     width: 25%;
-    display: flex;
+    display:inline-block;
     justify-content: center;
+    
 }
 
 .footer{
-    background-color:black;
-    color: white;
-    flex-shrink: 0;
-    padding: 20px;
+    background-color:#333;
+    margin: 0;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px; 
+    text-align: center;
+    line-height: 100px;
+   
 }
 
