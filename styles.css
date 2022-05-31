@@ -1,0 +1,46 @@
+
+body{
+    color: aqua;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+}
+
+  .fixo-topo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+.container{
+    background-color:#333;
+    color: #eee;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.main-aside h2{
+    text-align: center;
+}
+.main-aside ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.lista-elementos img{
+    border-radius: 50%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    background-color:black;
+    color: white;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
