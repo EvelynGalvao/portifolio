@@ -4,29 +4,67 @@ body{
     color: aqua;
     font-family: 'Orbitron', sans-serif;
     font-size: 18px;
+  
 }
 
 
-#menu .lista-menu{
-    margin: 0;
-    background-color:aquamarine;
+.menu .lista-menu{
     list-style: none;
+    padding: 0;
+    bottom: 0;
+   
 }
 
-#menu .lista-menu li{
+.menu .lista-menu{
+    background-color: aquamarine;
+    margin: 0; 
+}
+
+.menu .lista-menu li{
     display: inline;
+    position: relative;
+   
 }
 
-#menu .lista-menu li a{
-    padding: 10px 10px;
-    display:inline-block;
+.menu .lista-menu li a {
+    background-color: aqua;
     color: white;
     text-decoration: none;
+    display: inline-block;
+    padding: 10px ;
 }
 
-#menu .lista-menu li a:hover{
+.menu .lista-menu li a:hover {
+    background-color: aqua;
+    text-decoration: none;
+    padding:10px ;
+}
+
+
+.menu .lista-menu li a:hover{
     color: #333;
 }
+
+
+.menu .lista-menu ul{
+    display: none;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    
+}
+
+.menu .lista-menu li:hover ul{
+    display: block;
+    left: 0px;
+}
+
+menu .lista-menu ul {
+    width: 150px;
+   
+}
+
+
 
 .container{
     background-color: black;
