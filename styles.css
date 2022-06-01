@@ -1,7 +1,6 @@
 
 body{
     margin: 0;
-    color: aqua;
     font-family: 'Orbitron', sans-serif;
     font-size: 18px;
   
@@ -16,33 +15,46 @@ body{
 }
 
 .menu .lista-menu{
-    background-color: aquamarine;
+    background-color:aquamarine;
     margin: 0; 
 }
 
 .menu .lista-menu li{
     display: inline;
     position: relative;
+
    
 }
 
 .menu .lista-menu li a {
-    background-color: aqua;
-    color: white;
+    background-color:aqua;
+    color: gray;
     text-decoration: none;
     display: inline-block;
-    padding: 10px ;
+    padding: 10px;
+    
 }
 
-.menu .lista-menu li a:hover {
+.menu .lista-menu ul li a{
     background-color: aqua;
+    width: 100%;
+
+   
+}
+
+
+.menu .lista-menu li a:hover {
     text-decoration: none;
     padding:10px ;
+  
 }
 
 
 .menu .lista-menu li a:hover{
-    color: #333;
+    background-color:rgb(136, 224, 224);
+    color:azure;
+    transition: .5s;
+
 }
 
 
@@ -50,19 +62,20 @@ body{
     display: none;
     left: 0;
     padding: 0;
-    position: absolute;
-    
+    width: 100%;
+    position: absolute;  
 }
 
 .menu .lista-menu li:hover ul{
     display: block;
+    width: 100%;
     left: 0px;
+    right: 0px;
 }
 
-menu .lista-menu ul {
-    width: 150px;
-   
-}
+ 
+
+
 
 
 
