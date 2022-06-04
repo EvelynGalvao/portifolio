@@ -7,8 +7,11 @@ body{
 }
 
 
+
+
 .menu .lista-menu{
     list-style: none;
+    text-align: center;
     padding: 0;
     bottom: 0;
    
@@ -17,13 +20,14 @@ body{
 .menu .lista-menu{
     background-color:aquamarine;
     margin: 0; 
+    height: 80px;
+    
 }
 
 .menu .lista-menu li{
     display: inline;
     position: relative;
 
-   
 }
 
 .menu .lista-menu li a {
@@ -31,21 +35,18 @@ body{
     color: gray;
     text-decoration: none;
     display: inline-block;
-    padding: 10px;
-    
+    padding: 10px;    
 }
 
 .menu .lista-menu ul li a{
-    background-color: aqua;
     width: 100%;
-
-   
 }
 
 
 .menu .lista-menu li a:hover {
     text-decoration: none;
-    padding:10px ;
+    padding:15px ;
+    
   
 }
 
@@ -53,7 +54,7 @@ body{
 .menu .lista-menu li a:hover{
     background-color:rgb(136, 224, 224);
     color:azure;
-    transition: .5s;
+    transition: .3s;
 
 }
 
@@ -108,15 +109,20 @@ body{
 }
 
 .footer{
-    background-color:#333;
-    margin: 0;
-    padding: 30px;
+    background-color:rgb(136, 224, 224);
+    opacity: .7;
+    margin: auto;
+    padding: 20px;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 97.1%;
     height: 100px; 
-    text-align: center;
     line-height: 100px;
+    
    
 }
 
+.footer .main-aside{
+
+    text-align: center;
+}
