@@ -9,6 +9,14 @@ body{
   
 }
 
+P{
+    text-align: right;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+
 .menu .lista-menu{
     list-style: none;
     text-align: left;
@@ -72,17 +80,29 @@ body{
     right: 0px;
 }
 
-.conteudo {
-    background-color:rgb(200, 255, 127);
-    opacity: .4;
-    margin: 10%; 
+h1 {
+    background-color:rgb(156, 70, 9);
+    margin: 7%; 
     padding: 2%;
     height: 20%;
-    
-}
-.conteudo p {
-    color: black;
-    opacity: 1;
+    color:white;
+    text-align: center;
 }
 
+.conteudo p{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.redes-sociais ul{
+    list-style: none;
+    display:inline-flex;
+    text-align: center;
+}
+
+.redes-sociais img{
+    width: 10%;
+    padding: 0%;
+}
 
